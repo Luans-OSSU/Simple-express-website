@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title Jumbotron Template for Bootstrap
+    link(href='stylesheets/bootstrap.css', rel='stylesheet')
+  body
+    nav.navbar.navbar-toggleable-md.navbar-inverse.bg-inverse
+      button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarsExampleDefault', aria-controls='navbarsExampleDefault', aria-expanded='false', aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+      a.navbar-brand(href='#') Pc Nain
+      #navbarsExampleDefault.collapse.navbar-collapse
+        ul.navbar-nav.mr-auto
+          li.nav-item
+            a.nav-link(href='/') Home
+          li.nav-item
+            a.nav-link(href='/about') About
+          li.nav-item
+            a.nav-link(href='/contact') Contact
+    .container
+      block content
+    hr
+    footer
+      p(class="text-center") © Company 2017
